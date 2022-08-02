@@ -2,6 +2,14 @@
  * Your custom CSS file
  *************************************************************************/
 
+.publications h3 {
+  color: #1b7677;
+}
+
+.publications ul {
+  margin-top: 0;
+}
+
 .banner {
   background-color: #1b7677;
 }
@@ -9,6 +17,20 @@
 #current-team.gallery>div.flex-column>div,
 #alumni.gallery>div.flex-column>div {
   text-align: left;
+}
+
+.flex-item-stretch-6 {
+  flex: 1 auto;
+}
+
+.max-width-1000 {
+  max-width: 1000px;
+}
+
+@media screen and (min-width: 900px) {
+  .flex-item-stretch-6 {
+    flex: 4.5;
+  }
 }
 
 @media screen and (min-width: 900px) {
