@@ -1,6 +1,6 @@
 /*************************************************************************
  * GitHub: https://github.com/yenchiah/project-website-template
- * Version: v3.35
+ * Version: v3.36
  * This CSS file is for the website frame
  * If you want to keep this template updated, avoid modifying this file
  * Instead, add your own CSS in the custom.css file
@@ -660,7 +660,9 @@ ol.nested>li:before {
 }
 
 .gallery>a.flex-column>div,
-.gallery>div.flex-column>div {
+.gallery>div.flex-column>div,
+.gallery>a.flex-column>h3,
+.gallery>div.flex-column>h3 {
   width: 100%;
   text-align: center;
 }

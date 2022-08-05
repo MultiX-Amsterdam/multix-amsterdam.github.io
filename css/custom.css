@@ -15,7 +15,9 @@
 }
 
 #current-team.gallery>div.flex-column>div,
-#alumni.gallery>div.flex-column>div {
+#alumni.gallery>div.flex-column>div,
+#current-team.gallery>div.flex-column>h3,
+#alumni.gallery>div.flex-column>h3 {
   text-align: left;
 }
 
