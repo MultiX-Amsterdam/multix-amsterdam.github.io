@@ -6,11 +6,13 @@
   margin-top: 0;
 }
 
-.publications h3 {
+.publications h3,
+.grants h3 {
   color: #1b7677;
 }
 
-.publications ul {
+.publications ul,
+.grants ul {
   margin-top: 0;
 }
 
